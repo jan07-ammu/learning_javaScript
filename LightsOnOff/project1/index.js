@@ -38,18 +38,23 @@
 // console.log(b)
 
 
-let a1=10;
-let b1=20;
-// function sum(a1,b1)
-// {
-//             // console.log("Sum ="+(a1+b1));
-//             console.log("Sum of "+a1+" and "+b1+" is "+(a1+b1));
+// let a1=10;
+// let b1=20;
+// // function sum(a1,b1)
+// // {
+// //             // console.log("Sum ="+(a1+b1));
+// //             console.log("Sum of "+a1+" and "+b1+" is "+(a1+b1));
+// // }
+// // sum(a1,b1);
+
+
+
+// const sum1=(a1,b1)=>{
+//     console.log("Sum of "+a1+" and "+b1+" is "+(a1+b1));
 // }
 // sum(a1,b1);
 
 
 
-const sum1=(a1,b1)=>{
-    console.log("Sum of "+a1+" and "+b1+" is "+(a1+b1));
-}
-sum(a1,b1);
+
+

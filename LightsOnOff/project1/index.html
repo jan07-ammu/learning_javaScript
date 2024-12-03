@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/index.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="bg">
+   <div class="image">
+     <img id="img" src="./assests/bulbOff.jpg" alt="" width="500px" height="500px">
+   </div>
+   <div>
+    <button id="bu" class="btn" onclick="handleBulb()">Power on</button>
+   </div>
+</div>
+<script>
+    let bulb=false;
+    function handleBulb()
+    {
+        let img1=document.getElementById('img');
+        let bulp=document.getElementById('bu');
+       if(bulb)
+       {
+        img1.src="./assests/bulbOff.jpg";
+        bulp.textContent="Power on";
+        bulb=false;
+       }
+       else{
+        img1.src="./assests/bulbOn.jpeg";
+        bulp.textContent="Power off";
+        bulb=true;
+    }
+    console.log(bulb);
+    }
+</script>
+</body>
+</html>
